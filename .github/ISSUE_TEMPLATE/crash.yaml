@@ -1,0 +1,31 @@
+name: Crash report
+description: The game crashes or fails to load
+labels: ["crash"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Pack version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Crash log / latest.log
+      description: Upload to https://mclo.gs and paste the link. Do NOT paste the full log here.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: checkboxes
+    id: singleplayer
+    attributes:
+      label: Confirmation
+      options:
+        - label: I reproduced this on a fresh world / without extra mods added
+          required: false

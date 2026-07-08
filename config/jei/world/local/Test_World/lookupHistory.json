@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"nerospace:star_guide_book"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nerospace:raw_nerosteel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nerospace:nerosteel_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nerospace:station_wall"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nerospace:station_charter"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
