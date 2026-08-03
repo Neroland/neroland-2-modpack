@@ -18,3 +18,7 @@ Please use the issue templates. Include your pack version, a crash log (via
 Build and release automation is documented in [AUTOMATION.md](AUTOMATION.md).
 This pack is managed with [packwiz](https://packwiz.infra.link/); mods live in
 `mods/*.pw.toml`, not as committed jars.
+
+## Command
+
+packwiz cf detect --yes; Remove-Item mods\neroland-core.pw.toml,mods\prickle.pw.toml; packwiz refresh
