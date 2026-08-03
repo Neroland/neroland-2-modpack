@@ -1,16 +1,18 @@
 # Changelog
 
-All notable changes to Neroland 2 are documented here. The release workflow
-pulls the section matching the tagged version into the CurseForge/Modrinth
-changelog, so keep headings as `## [x.y.z]`.
+All notable changes to Neroland 2 are documented here.
 
-## [0.0.1-alpha.4]
+## [0.0.1-alpha.5]
 
 ### Other changes
 
-- Update AUTOMATION.md
-- Harden release flow and add mod sync script
-- Add Neroland 2 logo PNG assets
+- Harden release flow and sync pack configs
+
+## [0.0.1-alpha.4]
+
+### Changed
+
+- Internal packaging and release tooling only — no mod or gameplay changes.
 
 ## [0.0.1-alpha.3]
 
