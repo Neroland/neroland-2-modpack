@@ -33,35 +33,52 @@ java -jar packwiz-installer-bootstrap.jar -s client pack.toml
 If `mods/` looks empty, this is what you need. It's also the fix any time the
 CurseForge app reports no mods.
 
-### Adding mods
+### The release loop
+
+Manage mods however you like in the **CurseForge app** — add, remove or disable
+them — then run the sync script once. It reconciles the pack with whatever is
+actually in `mods/`, sets the build number, and downloads every jar back so the
+instance stays playable:
 
 ```powershell
-packwiz cf add <slug>       # or: packwiz mr add <slug>
-packwiz refresh
+.\scripts\sync-mods.ps1 -Prune -Version 0.0.1-alpha.5
+git add -A
+git commit -m "Release 0.0.1-alpha.5"
+git push origin main
+```
+```bash
+./scripts/sync-mods.sh --prune --version 0.0.1-alpha.5
 ```
 
-then re-run the installer to fetch the jar.
+That's the whole loop. The push publishes to CurseForge and Modrinth on the
+channel implied by the version (`-alpha.N` → alpha, `-beta.N`/`-rc.N` → beta,
+otherwise release), then tags the commit.
 
-If you'd rather drop jars into `mods/` by hand, use the sync script — it imports
-anything loose and downloads every jar back afterwards:
+- `-Prune` drops mods you deleted in the CurseForge app. Without it they're only
+  reported, so a first run can't surprise you.
+- `-Version` sets the build number. Omit it and the workflow picks the next one
+  itself.
+- `-DryRun` shows what would happen and changes nothing.
 
-```powershell
-.\scripts\sync-mods.ps1              # or: ./scripts/sync-mods.sh
-.\scripts\sync-mods.ps1 -DryRun
-```
+Removals are detected from `packwiz.json`, the installer's record of what it
+wrote, and only when `mods/` still holds jars — so an uninstalled pack can never
+be mistaken for "everything was deleted".
+
+Prefer to add mods without the app? `packwiz cf add <slug>` (or `mr add`), then
+`packwiz refresh` and re-run the installer.
 
 > **Don't run `packwiz cf detect` on its own.** It deletes every jar it imports,
 > which empties `mods/` and leaves the instance unlaunchable, and it re-adds mods
 > that already have a metafile under a different slug — producing duplicate project
 > IDs that break the CurseForge export. `sync-mods` wraps it safely: it backs the
-> jars up first, de-duplicates afterwards, and reinstalls.
+> jars up first, de-duplicates afterwards, prunes, and reinstalls.
 
-### Releasing
+### Releasing without touching mods
 
-Nothing to tag. Push a pack change to `main` and the release cuts itself:
+Any pack change pushed to `main` releases itself:
 
 ```powershell
-git commit -am "Add Jade and bump NeroTech"
+git commit -am "Retune NeroTech config"
 git push origin main
 ```
 

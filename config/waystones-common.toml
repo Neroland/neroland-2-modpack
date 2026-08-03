@@ -6,12 +6,20 @@
 	#Set to 'none' for no inventory button. Set to 'nearest' for an inventory button that teleports to the nearest waystone. Set to 'any' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
 	inventoryButton = ""
 	#The x position of the inventory button in the inventory.
+	# Default: 58
+	# Range: > -2147483648
 	inventoryButtonX = 58
 	#The y position of the inventory button in the inventory.
+	# Default: 60
+	# Range: > -2147483648
 	inventoryButtonY = 60
 	#The y position of the inventory button in the creative menu.
+	# Default: 88
+	# Range: > -2147483648
 	creativeInventoryButtonX = 88
 	#The y position of the inventory button in the creative menu.
+	# Default: 33
+	# Range: > -2147483648
 	creativeInventoryButtonY = 33
 
 [worldGen]
@@ -19,9 +27,11 @@
 	#Allowed Values: DEFAULT, MOSSY, SANDY, BLACKSTONE, DEEPSLATE, END_STONE, BIOME
 	wildWaystoneStyle = "BIOME"
 	#Approximate chunk distance between wild waystones being generated. Set to 0 to disable generation.
+	# Default: 25
+	# Range: > -2147483648
 	chunksBetweenWildWaystones = 25
 	#List of dimensions that wild waystones are allowed to spawn in. If left empty, all dimensions except those in wildWaystonesDimensionDenyList will be able to spawn waystones, provided the biomes are in the `has_structure/waystone` tag.
-	wildWaystonesDimensionAllowList = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+	wildWaystonesDimensionAllowList = ["minecraft:overworld", "minecraft:the_end", "minecraft:the_nether"]
 	#List of dimensions that wild waystones are not allowed to spawn in, even if the biome is in the `has_structure/waystone` tag. Only used if wildWaystonesDimensionAllowList is empty.
 	wildWaystonesDimensionDenyList = []
 	#Set to 'preset_first' to first use names from the nameGenerationPresets. Set to 'preset_only' to use only those custom names. Set to 'mixed' to have some waystones use custom names, and others random names.
@@ -52,7 +62,7 @@
 	#Set to false to simply disable all cooldowns. See rules for more fine-grained control.
 	enableCooldowns = true
 	#List of warp requirements in Shogi format.
-	warpRequirements = ["$xp_points_cost = if(condition = is_interdimensional, then = 27, else = $distance * 0.01)", "source(is_warp_plate()), target(is_global()) -> $xp_points_cost = 0", "$xp_points_cost = clamp($xp_points_cost, 0, 27)", "is_warp_stone -> damage_item(80)", "is_inventory_button -> cooldown_cost('inventory_button', '300s')"]
+	warpRequirements = ["$uses_xp #= and(any(source(is_waystone), source(is_warp_stone)), not(target(is_fleeting_memorial)))", "$uses_xp -> $xp_points_cost = $distance * $xp_per_block", "$uses_xp + is_interdimensional -> $xp_points_cost = $interdimensional_xp_cost", "$uses_xp -> $xp_points_cost = clamp($xp_points_cost, 0, $max_xp_cost)", "is_warp_stone -> damage_item(80)", "is_inventory_button -> cooldown_cost('inventory_button', $inventory_button_cooldown)"]
 	#Set to "enabled" to have nearby pets teleport with you. Set to "same_dimension" to have nearby pets teleport with you only if you're not changing dimensions. Set to "disabled" to disable.
 	#Allowed Values: ENABLED, SAME_DIMENSION, DISABLED
 	transportPets = "DISABLED"
@@ -63,6 +73,8 @@
 	entityDenyList = ["minecraft:wither"]
 	#Set to true to enable warp modifier items for applying status effects on teleports.
 	enableModifiers = true
+	#List of variables used in the warpRequirements configuration.
+	warpSettings = ["$xp_per_block = 0.01", "$min_xp_cost = 0", "$max_xp_cost = 27", "$interdimensional_xp_cost = 27", "$inventory_button_cooldown = '300s'"]
 
 [journeyMap]
 	#If enabled, JourneyMap waypoints will be created for each activated waystone.
