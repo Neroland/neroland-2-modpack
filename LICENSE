@@ -1,0 +1,109 @@
+Neroland 2 Modpack License
+==========================
+
+Copyright (c) 2026 Dario Maselli ("Neroland"). All Rights Reserved.
+
+"Neroland 2" (the "Pack") means this modpack project as published by the
+copyright holder: its configuration files, quest and scene definitions,
+scripts, resource overrides, pack manifest, listing text, artwork, the
+"Neroland 2" name and logo, and the assembled distribution — but NOT the
+individual mods bundled or referenced by it.
+
+"Bundled Mods" means the Neroland mods included in, or referenced by, the
+Pack (Neroland Core, Nerospace, NeroTech, NeroLogistics, and every other
+Nero mod in the pack). Each Bundled Mod is a separate work distributed under
+its own LICENSE and is governed by that licence, not by this one.
+
+"Official Sources" means the distribution channels operated or authorised by
+the copyright holder for the Pack, currently:
+
+- CurseForge: <https://www.curseforge.com/minecraft/modpacks/neroland-2>
+- Modrinth:   <https://modrinth.com/modpack/neroland-2>
+- GitHub:     <https://github.com/Neroland/neroland-2-modpack>
+
+The Pack is source-available, not open source: you can read and learn from
+everything in it, but the rights granted below are the only rights granted.
+
+1. WHAT YOU MAY DO (no permission needed)
+
+-----------------------------------------
+
+a) USE & PLAY. Play the Pack in single-player or on any server, private or
+   public, free or monetised, provided every copy of each Bundled Mod
+   involved was obtained from that mod's own Official Source (pack manifests
+   that reference official files by download satisfy this automatically).
+
+b) SERVER PACKS & PRIVATE EDITS. Run the Pack on your own server and adjust
+   its configuration, quests, recipes and scripts to suit your community.
+   Such private edits may be shared with that server's own players, but must
+   not be published as a separate or "custom" pack.
+
+c) CONTENT CREATION & COMMERCIAL USE. Create and monetise videos, streams,
+   screenshots, reviews and other content featuring the Pack, and run the
+   Pack in commercial settings (e.g. monetised servers or events), provided
+   the Pack and its Bundled Mods were obtained from Official Sources.
+
+d) CONTRIBUTIONS. Submit issues and pull requests. By submitting a
+   contribution you grant the copyright holder a perpetual, worldwide,
+   royalty-free licence to use, modify, distribute and relicense that
+   contribution as part of the Pack.
+
+2. WHAT YOU MAY NOT DO (without prior written permission)
+
+-----------------------------------------
+
+a) REDISTRIBUTION. Do not re-upload, mirror, re-host or otherwise
+   redistribute the Pack (original or edited) outside the Official Sources,
+   under this name or any other name. This includes "rehost" sites and
+   publishing an edited copy of the Pack.
+
+b) DERIVATIVE PACKS. Do not publish a modpack derived from the Pack's
+   configuration, quests, scripts or artwork.
+
+c) MISREPRESENTATION. Do not claim authorship of the Pack or imply
+   endorsement by the copyright holder.
+
+3. BUNDLED MODS
+
+-----------------------------------------
+
+This licence grants no rights whatsoever in the Bundled Mods. Each Bundled
+Mod is Copyright (c) 2026 Dario Maselli ("Neroland") and is licensed under
+its own LICENSE, available on that mod's CurseForge, Modrinth and GitHub
+pages. Where a Bundled Mod's own licence permits its inclusion in modpacks
+(as the Neroland mods' licences do, with credit), you may build your own
+packs from those individual mods under their terms — you simply may not
+re-host or fork *this* Pack under section 2.
+
+4. NO WARRANTY
+
+-----------------------------------------
+
+THE PACK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE PACK OR THE USE OF OR OTHER DEALINGS IN THE PACK.
+
+5. NOTES
+
+-----------------------------------------
+
+- Minecraft is a trademark of Mojang AB / Microsoft. This Pack is not an
+  official Minecraft product and is not approved by or associated with
+  Mojang or Microsoft. Your use of Minecraft itself is governed by the
+  Minecraft EULA.
+- Player data stored by the Bundled Mods routes through Neroland Core's
+  shared per-player data-erasure hook, so export/erasure requests can be
+  honoured across the whole pack (POPIA/GDPR aligned).
+- Forking the Pack's repository on GitHub is additionally covered by the
+  GitHub Terms of Service; this licence does not restrict rights GitHub's
+  terms grant for on-platform forks.
+- This licence may be updated for future versions of the Pack; the licence
+  shipped with a given version applies to that version.
+
+Permission requests: open an issue at
+<https://github.com/Neroland/neroland-2-modpack/issues> or email
+<info@neroland.co.za>. Permission is granted only when given explicitly and
+in writing.
