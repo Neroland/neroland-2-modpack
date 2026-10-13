@@ -48,7 +48,7 @@ Every release is documented in [CHANGELOG.md](CHANGELOG.md).
 
 ## Links
 
-- **Wiki:** https://wiki.neroland.co.za
+- **Wiki:** https://nerolandmc.net/wiki
 - **Discord:** https://discord.gg/ArPXvYUzJG
 - **GitHub:** https://github.com/Neroland
 
