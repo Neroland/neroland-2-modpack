@@ -1,7 +1,7 @@
 # Neroland 2
 
 The official repository and issue tracker for **Neroland 2** — a curated sci-fi
-modpack for **Minecraft 26.2** on **NeoForge**.
+modpack for **Minecraft 26.3** on **NeoForge**.
 
 Built around the Neroland mods — industrialise, automate, and blast off to alien
 worlds — rounded out with a small, hand-picked set of community mods for the
@@ -15,13 +15,14 @@ quality-of-life and exploration essentials. Curated, not kitchen-sink.
 Easiest route is the CurseForge or Modrinth app: search for **Neroland 2**,
 click **Install**, then **Play**.
 
-**Requirements:** Minecraft 26.2 · NeoForge · 6 GB RAM allocated recommended ·
+**Requirements:** Minecraft 26.3 · NeoForge · 6 GB RAM allocated recommended ·
 a modern quad-core CPU.
 
 ## What's inside
 
-**Neroland mods** — Neroland Core, Nerospace, NeroTech, NeroLogistics, NeroLink,
-NeroAgriculture, NeroDecor and NeroQuests. They share Core's materials, energy
+**Neroland mods** — Neroland Core, Nerospace, NeroTech, NeroPower, NeroLogistics,
+NeroLink, NeroAgriculture, NeroDecor, NeroQuests, NeroEconomy, NeroColonies,
+NeroEvents and NeroSecurity. They share Core's materials, energy
 and progression, so there are no clashing recipes or duplicate ores between them.
 
 **Community mods** — JEI, JourneyMap, Jade, Waystones, Distant Horizons,
