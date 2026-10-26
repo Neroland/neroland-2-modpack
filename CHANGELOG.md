@@ -2,6 +2,16 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.0-beta.5]
+
+### Updated
+
+- **NeroColonies** `0.5.0-beta.1` → `0.5.1-beta.1`
+
+### Other changes
+
+- Nero mods updated to their latest releases
+
 ## [0.1.0-beta.4]
 
 ### Updated
