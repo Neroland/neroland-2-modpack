@@ -2,6 +2,12 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.0-beta.6]
+
+### Added
+
+- **NeroCreatures** `0.3.0-alpha.1`
+
 ## [0.1.0-beta.5]
 
 ### Updated
