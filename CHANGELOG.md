@@ -2,6 +2,22 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.0-beta.8]
+
+### Added
+
+- **NeroNotes** `0.6.1-beta.2`
+
+### Updated
+
+- **NeroColonies** `0.5.1-beta.1` → `0.6.1-beta.1`
+- **NeroCreatures** `0.4.0-alpha.2` → `0.4.1-alpha.2`
+- **NeroQuests** `0.4.1-beta.1` → `0.5.1-beta.1`
+
+### Other changes
+
+- Automatic Nero mod and NeoForge maintenance
+
 ## [0.1.0-beta.7]
 
 ### Added
