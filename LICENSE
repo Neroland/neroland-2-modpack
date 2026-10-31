@@ -18,7 +18,6 @@ its own LICENSE and is governed by that licence, not by this one.
 the copyright holder for the Pack, currently:
 
 - CurseForge: <https://www.curseforge.com/minecraft/modpacks/neroland-2>
-- Modrinth:   <https://modrinth.com/modpack/neroland-2>
 - GitHub:     <https://github.com/Neroland/neroland-2-modpack>
 
 The Pack is source-available, not open source: you can read and learn from
@@ -69,7 +68,7 @@ c) MISREPRESENTATION. Do not claim authorship of the Pack or imply
 
 This licence grants no rights whatsoever in the Bundled Mods. Each Bundled
 Mod is Copyright (c) 2026 Dario Maselli ("Neroland") and is licensed under
-its own LICENSE, available on that mod's CurseForge, Modrinth and GitHub
+its own LICENSE, available on that mod's CurseForge and GitHub
 pages. Where a Bundled Mod's own licence permits its inclusion in modpacks
 (as the Neroland mods' licences do, with credit), you may build your own
 packs from those individual mods under their terms — you simply may not

@@ -10,9 +10,8 @@ quality-of-life and exploration essentials. Curated, not kitchen-sink.
 ## Getting the pack
 
 - **CurseForge:** _link once published_
-- **Modrinth:** _link once published_
 
-Easiest route is the CurseForge or Modrinth app: search for **Neroland 2**,
+Easiest route is the CurseForge app: search for **Neroland 2**,
 click **Install**, then **Play**.
 
 **Requirements:** Minecraft 26.3 · NeoForge · 6 GB RAM allocated recommended ·
