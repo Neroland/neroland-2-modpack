@@ -2,6 +2,22 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.0-beta.9]
+
+### Updated
+
+- **NeroDecor** `0.7.0-beta.2` → `0.7.1-beta.2`
+- **NeroEconomy** `0.5.0-beta.1` → `0.5.1-beta.1`
+- **NeroFactions** `0.6.0-beta.1` → `0.6.1-beta.1`
+- **Neroland Core** `1.17.1` → `1.17.2`
+- **NeroLink** `1.1.0` → `1.2.2`
+- **NeroSpace** `1.6.0` → `2.0.0-alpha.1`
+- **NeroTech** `0.7.0-beta.1` → `0.7.1-beta.1`
+
+### Other changes
+
+- Automatic Nero mod and NeoForge maintenance
+
 ## [0.1.0-beta.8]
 
 ### Added
