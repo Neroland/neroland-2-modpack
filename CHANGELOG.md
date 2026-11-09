@@ -2,6 +2,41 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.1]
+
+### Added
+
+- **NeroCompanion** `0.6.0-beta.1`
+- **NeroRuins** `0.5.0-beta.1`
+
+### Updated
+
+- **NeroAgriculture** `0.5.0-beta.1` → `0.7.0-beta.2`
+- **NeroEvents** `0.5.0-beta.2` → `0.7.0-beta.1`
+- **Neroland Core** `1.17.2` → `1.17.5`
+- **NeroLogistics** `0.7.0-beta.1` → `0.7.3-beta.1`
+- **NeroNotes** `0.6.1-beta.2` → `0.6.1-beta.3`
+- **NeroSpace** `2.0.0-alpha.1` → `2.1.0-beta.1`
+
+### Other changes
+
+- Automatic Nero mod and NeoForge maintenance
+- Update pack.toml
+- Update Nero mods and NeoForge to latest compatible builds (v0.1.0-beta.10)
+
+## [0.1.0]
+
+### Updated
+
+- **NeroAgriculture** `0.5.0-beta.1` → `0.7.0-beta.2`
+- **Neroland Core** `1.17.2` → `1.17.3`
+- **NeroSpace** `2.0.0-alpha.1` → `2.0.0-beta.1`
+
+### Other changes
+
+- Update pack.toml
+- Update Nero mods and NeoForge to latest compatible builds (v0.1.0-beta.10)
+
 ## [0.1.0-beta.10]
 
 ### Updated
