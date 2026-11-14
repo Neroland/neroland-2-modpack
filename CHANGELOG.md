@@ -2,6 +2,17 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.2]
+
+### Updated
+
+- **NeroEvents** `0.7.0-beta.1` → `0.8.0-beta.1`
+- **NeroRuins** `0.5.0-beta.1` → `0.5.1-beta.1`
+
+### Other changes
+
+- Automatic Nero mod and NeoForge maintenance
+
 ## [0.1.1]
 
 ### Added
