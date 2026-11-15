@@ -2,6 +2,27 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.4]
+
+### Updated
+
+- **Corpse** `1.1.20+26.3` → `1.1.22+26.3`
+- **Crafting Tweaks** `26.3.0.1` → `26.3.0.2`
+- **Energized Power** `3.0.2+26.3.x-neoforge` → `3.0.9-26.3.x-neoforge`
+- **Inventory Essentials** `26.3.0.4` → `26.3.0.5`
+- **JamLib** `2.3.1+26.3.x` → `2.3.2-26.3.x`
+- **Just Enough Items (JEI)** `31.10.0.63` → `31.17.0.113`
+- **MezzConfig** `0.6.8-standalone` → `0.7.1-standalone`
+- **RightClickHarvest** `4.6.2+26.3.x` → `4.7.0-26.3.x`
+- **Server Performance - Smooth Chunk Save** `26.1-4.2` → `26.2-4.4`
+- **Structure Essentials** `5.0` → `5.1`
+- **TrashSlot** `26.3.0.1` → `26.3.0.2`
+- **Waystones** `26.3.0.1` → `26.3.0.3`
+
+### Other changes
+
+- Automatic mod and NeoForge maintenance
+
 ## [0.1.3]
 
 ### Updated
