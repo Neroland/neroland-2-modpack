@@ -2,6 +2,16 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.3]
+
+### Updated
+
+- **NeroFactions** `0.7.0-beta.1` → `0.7.0-beta.2`
+
+### Other changes
+
+- Automatic Nero mod and NeoForge maintenance
+
 ## [0.1.2]
 
 ### Updated
