@@ -23,8 +23,10 @@ a modern quad-core CPU.
 NeroLink, NeroAgriculture, NeroDecor, NeroQuests, NeroEconomy, NeroColonies,
 NeroEvents and NeroSecurity. They share Core's materials, energy
 and progression, so there are no clashing recipes or duplicate ores between them.
+Mapping comes from **NeroMaps**, the family's own minimap and world map, which joins
+the pack with its first CurseForge release.
 
-**Community mods** — JEI, JourneyMap, Jade, Waystones, Distant Horizons,
+**Community mods** — JEI, Jade, Waystones, Distant Horizons,
 Nature's Compass, AppleSkin, Energized Power and a handful of quality-of-life and
 performance additions.
 
