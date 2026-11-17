@@ -2,6 +2,44 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.6]
+
+### Added
+
+- **NeroMaps** `0.1.0-beta.1`
+
+### Updated
+
+- **Energized Power** `3.0.9-26.3.x-neoforge` → `3.0.11-26.3.x-neoforge`
+- **JamLib** `2.3.2-26.3.x` → `2.3.3-26.3.x`
+- **NeroColonies** `0.7.1-beta.1` → `0.8.1-beta.1`
+- **NeroCompanion** `0.7.0-beta.1` → `0.7.1-beta.1`
+- **NeroCreatures** `0.4.1-alpha.2` → `0.5.1-beta.1`
+- **NeroEconomy** `0.5.1-beta.1` → `0.5.2-beta.1`
+- **NeroEvents** `0.9.0-beta.1` → `0.9.1-beta.1`
+- **NeroFactions** `0.7.0-beta.2` → `0.7.1-beta.1`
+- **Neroland Core** `1.17.6` → `1.20.0`
+- **NeroLink** `1.2.2` → `1.3.0`
+- **NeroPower** `0.2.1-beta.1` → `0.3.2-beta.1`
+- **NeroRuins** `0.5.1-beta.1` → `0.5.2-beta.1`
+- **NeroSecurity** `0.5.0-beta.1` → `0.7.1-beta.1`
+- **NeroSpace** `2.2.0` → `2.3.1`
+- **RightClickHarvest** `4.7.0-26.3.x` → `4.7.1-26.3.x`
+
+### Other changes
+
+- Automatic mod and NeoForge maintenance
+
+## [0.1.5]
+
+### Removed
+
+- **JourneyMap**
+
+### Other changes
+
+- Replace JourneyMap with NeroMaps
+
 ## [0.1.4]
 
 ### Updated
