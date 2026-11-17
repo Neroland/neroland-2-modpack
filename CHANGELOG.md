@@ -2,6 +2,12 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.7]
+
+### Removed
+
+- **No Chat Reports**
+
 ## [0.1.6]
 
 ### Added
