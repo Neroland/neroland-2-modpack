@@ -2,6 +2,10 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.13]
+
+- Maintenance release; no mod changes.
+
 ## [0.1.12]
 
 ### Other changes
