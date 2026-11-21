@@ -2,6 +2,12 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.12]
+
+### Other changes
+
+- Build and publish dedicated server packs
+
 ## [0.1.11]
 
 ### Updated
