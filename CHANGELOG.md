@@ -2,6 +2,88 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.11]
+
+### Updated
+
+- **Sodium** `0.9.2+mc26.3` → `0.9.3-beta.3-mc26.3`
+
+### Other changes
+
+- Update Sodium to beta 3
+
+## [0.1.10]
+
+### Added
+
+- **Cloth Config API (Fabric/Forge/NeoForge)** `26.3.159`
+- **NeroArcade** `0.2.4-beta.1`
+
+### Updated
+
+- **Sodium** `0.9.3-beta.5-mc26.3` → `0.9.2+mc26.3`
+
+### Other changes
+
+- Add NeroArcade and pin client mods
+
+## [0.1.9]
+
+### Added
+
+- **AmbientSounds 6** `v6.3.11_mc26.3`
+- **BetterF3** `20.0.0-NeoForge-26.3`
+- **Chat Heads** `1.3.2-26.3`
+- **CreativeCore** `v2.14.25_mc26.3`
+- **Dynamic FPS** `3.11.10+minecraft-26.3.0-neoforge`
+- **Easy Anvils** `v26.3.1-mc26.3.x+neoforge`
+- **Easy Magic** `v26.3.1-mc26.3.x-neoforge`
+- **[EMF] Entity Model Features [Fabric & Forge]** `3.3.12-26.3-neoforge`
+- **[ETF] Entity Texture Features - [Fabric & Forge]** `7.2.7-26.3-neoforge`
+- **Explorer's Compass** `3.3.2-neoforge`
+- **Falling Leaves (NeoForge/Forge)** `3.1.1-beta`
+- **First-person Model** `2.7.3-mc26.3`
+- **Iceberg [Neo/Forge]** `1.4.3.2`
+- **Iris Shaders** `1.11.7+mc26.3`
+- **KotlinLangForge** `2.20.0-k2.4.21-3.1-neoforge`
+- **Legendary Tooltips [Neo/Forge]** `1.6.3`
+- **Not Enough Animations** `1.12.7-mc26.3`
+- **Overflowing Bars** `v26.3.0-mc26.3.x+neoforge`
+- **Packet Fixer** `3.3.7`
+- **Particle Rain** `4.0.4-26.3-neoforge`
+- **Pick Up Notifier** `v26.3.0-mc26.3.x+neoforge`
+- **Prism [Neo/Forge]** `1.1.3`
+- **Puzzles Lib** `v26.3.18-mc26.3.x-neoforge`
+- **Shulker Box Tooltip [Fabric/Forge/NeoForge]** `5.4.3+26.3`
+- **Skin Layers 3D** `1.11.4-mc26.3`
+- **Smooth Swapping** `0.9.11-26.3-neoforge`
+- **Sodium** `0.9.3-beta.5-mc26.3`
+- **Sophisticated Backpacks** `3.26.22.2260`
+- **Sophisticated Core** `1.5.40.2492`
+- **Sound Physics Remastered** `1.5.4-26.3`
+- **YetAnotherConfigLib** `v3-3.9.7+26.3-neoforge`
+- **Zoomify** `2.17.0+mc26.3-universal`
+
+### Other changes
+
+- Add visual, performance, and gameplay mods
+
+## [0.1.8]
+
+### Added
+
+- **NeroTrophies** `0.1.0-beta.1`
+
+### Updated
+
+- **Just Enough Items (JEI)** `31.17.0.113` → `31.18.0.120`
+- **NeroLink** `1.3.0` → `1.4.0`
+- **NeroMaps** `0.1.0-beta.1` → `0.1.0-beta.2`
+
+### Other changes
+
+- Automatic mod and NeoForge maintenance
+
 ## [0.1.7]
 
 ### Removed

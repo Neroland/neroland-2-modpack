@@ -17,6 +17,12 @@ click **Install**, then **Play**.
 **Requirements:** Minecraft 26.3 · NeoForge · 6 GB RAM allocated recommended ·
 a modern quad-core CPU.
 
+## Hosting a dedicated server
+
+Download `Neroland-2-<version>-server.zip` from the matching [GitHub release](https://github.com/Neroland/neroland-2-modpack/releases).
+Extract it into a new directory and follow the included README to install the
+pinned mods and NeoForge with Java 25. Use the same Neroland 2 version on the client.
+
 ## What's inside
 
 **Neroland mods** — Neroland Core, Nerospace, NeroTech, NeroPower, NeroLogistics,
