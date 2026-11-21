@@ -20,8 +20,9 @@ a modern quad-core CPU.
 ## Hosting a dedicated server
 
 Download `Neroland-2-<version>-server.zip` from the matching [GitHub release](https://github.com/Neroland/neroland-2-modpack/releases).
-Extract it into a new directory and follow the included README to install the
-pinned mods and NeoForge with Java 25. Use the same Neroland 2 version on the client.
+Extract it into a new directory, then run `.\startserver.bat` on Windows or
+`bash startserver.sh` on Linux. The launcher uses Java 25 to install the pinned
+mods and NeoForge. Use the same Neroland 2 version on the client.
 
 ## What's inside
 
