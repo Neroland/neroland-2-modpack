@@ -2,6 +2,16 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.15]
+
+### Removed
+
+- **First-person Model**
+
+### Other changes
+
+- Remove First-person Model mod
+
 ## [0.1.14]
 
 ### Updated
