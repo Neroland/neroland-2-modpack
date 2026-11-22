@@ -2,6 +2,33 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.14]
+
+### Updated
+
+- **Just Enough Items (JEI)** `31.18.0.120` → `31.18.0.126`
+- **NeroAgriculture** `0.7.0-beta.2` → `0.7.0`
+- **NeroArcade** `0.2.4-beta.1` → `0.2.4`
+- **NeroColonies** `0.8.1-beta.1` → `0.8.1`
+- **NeroCompanion** `0.7.1-beta.1` → `0.7.1`
+- **NeroCreatures** `0.5.1-beta.1` → `0.5.1`
+- **NeroDecor** `0.8.3-beta.1` → `0.8.3`
+- **NeroEconomy** `0.5.2-beta.1` → `0.5.2`
+- **NeroEvents** `0.9.1-beta.1` → `0.9.1`
+- **NeroFactions** `0.7.1-beta.1` → `0.7.1`
+- **NeroLogistics** `0.7.3-beta.1` → `0.7.4`
+- **NeroMaps** `0.1.0-beta.2` → `0.1.0`
+- **NeroNotes** `0.6.1-beta.3` → `0.6.1`
+- **NeroRuins** `0.5.2-beta.1` → `0.5.2`
+- **NeroSecurity** `0.7.1-beta.1` → `0.7.1`
+- **NeroSpace** `2.3.1` → `2.4.0`
+- **NeroTech** `0.7.1-beta.1` → `0.8.0`
+- **NeroTrophies** `0.1.0-beta.1` → `0.1.0`
+
+### Other changes
+
+- Automatic mod and NeoForge maintenance
+
 ## [0.1.13]
 
 - Maintenance release; no mod changes.
