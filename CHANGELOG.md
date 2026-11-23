@@ -2,6 +2,41 @@
 
 All notable changes to Neroland 2 are documented here.
 
+## [0.1.16]
+
+### Updated
+
+- **Chat Heads** `1.3.2-26.3` → `1.3.3-26.3`
+- **Just Enough Items (JEI)** `31.18.0.126` → `31.23.0.129`
+- **KotlinLangForge** `2.20.0-k2.4.21-3.1-neoforge` → `2.20.1-k2.4.21-3.1-neoforge`
+- **NeroAgriculture** `0.7.0` → `0.8.0`
+- **NeroArcade** `0.2.4` → `0.3.0`
+- **NeroColonies** `0.8.1` → `0.9.0`
+- **NeroCompanion** `0.7.1` → `0.8.0`
+- **NeroCreatures** `0.5.1` → `0.6.0`
+- **NeroDecor** `0.8.3` → `0.9.0`
+- **NeroEconomy** `0.5.2` → `0.6.0`
+- **NeroEvents** `0.9.1` → `0.10.0`
+- **NeroFactions** `0.7.1` → `0.8.0`
+- **Neroland Core** `1.20.0` → `1.22.0`
+- **NeroLink** `1.4.0` → `1.5.0`
+- **NeroLogistics** `0.7.4` → `0.8.0`
+- **NeroMaps** `0.1.0` → `0.2.0`
+- **NeroNotes** `0.6.1` → `0.7.0`
+- **NeroPower** `0.3.2-beta.1` → `0.5.0`
+- **NeroRuins** `0.5.2` → `0.6.0`
+- **NeroSecurity** `0.7.1` → `0.8.0`
+- **NeroSpace** `2.4.0` → `2.4.2`
+- **NeroTech** `0.8.0` → `0.9.0`
+- **NeroTrophies** `0.1.0` → `0.2.0`
+- **RightClickHarvest** `4.7.1-26.3.x` → `4.7.2-26.3.x`
+- **Sophisticated Backpacks** `3.26.22.2260` → `3.26.23.2266`
+- **Sophisticated Core** `1.5.40.2492` → `1.5.42.2499`
+
+### Other changes
+
+- Automatic mod and NeoForge maintenance
+
 ## [0.1.15]
 
 ### Removed
